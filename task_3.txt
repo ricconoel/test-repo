@@ -1,0 +1,7 @@
+From the data that you got from task#2, imagine reading millions or billions of rows from it. Describe a way on how you will design the table so that processing or querying the table will be optimized.
+
+- Partition table by date (created_at)
+    - When queries are ran in a specific partition it will be cheaper compared to querying the whole table
+    - Querying a partition is also faster compared to querying the whole table
+
+- Index the table to speed up searching
