@@ -1,6 +1,6 @@
 Assuming you want to deploy an automated solution for task#2 in a cloud setup to be available to an end user via a BI platform. Give a short high level description of a possible approach and some considerations that would affect your choices.
 
-Deploy app to a App Engine (PaaS)
+Deploy app to a GCP App Engine (PaaS) 
     - Capable of auto scaling based on request rate, latency, etc.
     - Capable of deploying multiple versions and splitting traffic accross versions
     - No more infrastructure to maintain
