@@ -51,7 +51,8 @@ def upload_json_to_gcs(bucket_name, source_file_name, destination_blob_name):
 
 if __name__ == '__main__':
 
-    start_time = "2022-08-18T00:00:00Z"
+    #update values as needed
+    start_time = "2022-08-19T00:00:00Z"
     end_time = "2022-08-24T00:00:00Z"
     hash_tag = "#ecommerece"
     json_filename = "twitter_data.json"
