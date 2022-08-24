@@ -54,7 +54,7 @@ if __name__ == '__main__':
     #update values as needed
     start_time = "2022-08-19T00:00:00Z"
     end_time = "2022-08-24T00:00:00Z"
-    hash_tag = "#ecommerece"
+    hash_tag = "#ecommerce"
     json_filename = "twitter_data.json"
 
     data_dict = extract_data(start_time=start_time,
