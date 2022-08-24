@@ -7,7 +7,7 @@
 - Install Google Cloud Storage (if you have a GCP account)
   - `pip install google-cloud-storage` 
 - Install dotenv to load environmente variables from .env file
-  - pip install python-dotenv 
+  - `pip install python-dotenv`
 
 ### Set Environment variable or create .env file
 ---
